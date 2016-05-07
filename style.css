@@ -1,54 +1,39 @@
 ﻿body {
-      background: url(background_image.jpg) no-repeat;
-      background-size: 100%;
-      background-color: #000000;
-      font-size: 16px;
-      font-family: Arial;
-      color: #C0C0C0;
-      } 
-
-h1 { 
-    font-size: 24px;
-    font-family: Times New Roman;
-    color: #C0C0C0;
-    } /* Стиль заголовка */
-
-A {
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-    color: #C0C0C0; /* Цвет обычной ссылки */
-   }
-   A:visited {
-    color: #C0C0C0; /* Цвет посещенной ссылки */
-   }
-
-.round {
-    border-radius: 500px; /* Радиус скругления */
-    border: 1px solid silver; /* Параметры рамки */
-    box-shadow: 0 0 50px #000; /* Параметры тени */
-    } /*Класс для создания круглой картинки*/
-
-table.menu {
-       width: 75%;/*Ширина таблицы*/
-       border: 1px solid silver;
-       border-radius: 5px;
-       margin: auto;/*Выравнивание таблицы по центру окна браузера*/
-      }
-
-table.sign-up { 
-       margin: auto;
-       margin-top: 10%;     
-     }/*Таблица для формы входа-регистрации*/
-table.photo {
-      margin: auto;
-      margin-top: 5%; 
-     }
-table.about {
-      margin: auto;
-     }
-
-td {
-  text-align: center;/*Выравнивание содержимого ячейки по центру*/
-  /*border: 1px solid silver;*/
-  padding: 10px;/*отступ от края ячейки*/
+  background: url(header-image.jpg) no-repeat;
+  background-size: 100%;
+  background-color: #FFF;
 }
- 
+
+h1 {
+  font-family: Century Gothic;
+  font-size: 72px;
+  text-align: center;
+  color: #FFF;
+}
+
+p {
+  font-family: Century Gothic;
+  font-size: 36px;
+  text-align: center;
+  color: #FFF;
+}
+
+.center {
+  width: 100%;
+  padding: 10px; 
+  margin: auto; 
+  margin-left: -12px;
+  background: #000;
+  opacity: .5;
+   }
+
+.logo {
+  width: 50%;
+  opacity: .5;
+  background: #000;
+  margin-left: -12px;
+}
+
+
+
+
