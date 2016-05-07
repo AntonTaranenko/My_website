@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+  <html>
+
+   <head>
+    <title>AT - Sign up</title> <!--Заголовок страницы--> 
+      <link rel="stylesheet" href="style.css" type="text/css"> <!--Ссылка на CSS документ--> 
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--значёк для браузера-->
+   </head>
+
+   <meta charset="utf-8"> <!--установка правильной кодировки--> 
+
+   <body>
+
+        <table class="menu">
+      <tr>
+        <td><a title="Обо мне" href="About.html">About</a></td>
+        <td><a title="Музыка" href="">Music</a></td>
+        <td><a title="Видео" href="">Video</a></td>
+        <td><a title="Фото" href="Photo.html">Photo</a></td>
+        <td><a title="Ссылки" href="">Links</a></td>
+        <td><a title="Регистрация "href="Sign up.html">Sign up</a></td>
+      </tr>
+    </table> <!--Меню сайта -->
+
+    <p></p>
+
+   <table class="sign-up">
+    <caption>Sign up!</caption> <!--Заголовок таблицы-->
+    <form action="test.php" method="post">
+     <tr>
+     <td><label for="login-field">Login</label></td>
+     <td><input type="text" name="login" id="login-field" value="Login"></td>
+     </tr>
+     <tr>
+     <td><label for="password-field">Password</label></td>
+     <td><input type="password" name="password" id="password-field" value="password"></td>
+     </tr>
+     <tr>
+     <td colspan="2"><input type="checkbox" checked name="subscribe" id="subscribe-field">
+     <label for="subscribe-field">Подписать вас на рассылку?</label>
+     </td>
+     </tr>
+     <tr>
+     <td colspan="2"><input type="submit" value="Send"></td>
+     </tr>
+    </form>
+    </table> <!--Форма входа-регистрации-->
+
+   </body>
+
+  </html>
