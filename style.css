@@ -2,13 +2,15 @@
   background: url(header-image.jpg) no-repeat;
   background-size: 100%;
   background-color: #FFF;
+  margin: 0px;
+  padding: 0px;
+  color: #FFF;
 }
 
 h1 {
   font-family: Century Gothic;
   font-size: 72px;
   text-align: center;
-  color: #FFF;
 }
 
 p {
@@ -18,22 +20,33 @@ p {
   color: #FFF;
 }
 
-.center {
+.page-header {
+  display: block;
   width: 100%;
-  padding: 10px; 
-  margin: auto; 
-  margin-left: -12px;
-  background: #000;
-  opacity: .5;
-   }
+  background-color: rgba(0, 0, 0, 0.3);
 
-.logo {
-  width: 50%;
-  opacity: .5;
-  background: #000;
-  margin-left: -12px;
 }
 
+.page-footer {
+  display: block;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-main {
+  display: block;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.about-me {
+
+}
+
+.empty-space {
+  display: block;
+  width: 100%;
+}
 
 
 
